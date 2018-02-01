@@ -28,7 +28,7 @@ More to come ...
 
 Renders,
 
-**Note**. To view a rendering of the above Html snippet, visit the [Bootstrap 4](https://mminail.github.io/Browser/Bootstrap-4.htm){:title='Click to Visit the Bootstrap 4 page of the Concept Library at MMINAIL'}{:target='_blank'} page of the Concept Library at MMINAIL.
+**Note**. To view a rendering of the above Html snippet, visit the [Bootstrap 4](https://mminail.github.io/Bootstrap/Bootstrap-4.htm){:title='Click to Visit the Bootstrap 4 page of the Concept Library at MMINAIL'}{:target='_blank'} page of the Concept Library at MMINAIL.
 
 ## Visual Studio Code Snippet
 
