@@ -61,6 +61,6 @@ Enjoy the successful output!
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Bootstrap/Source-Bootstrap-Links.htm){:title="Click to Visit the Source Links page of the Bootstrap Lessons Project at GitHub pages"}{:target="_blank"} page of the Bootstrap Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
 - [Understanding Bootstrap 4](https://www.independent.com/){:title='Click to Visit the Landing page for Understanding Bootstrap 4: Everything You Need To Know by Ohan Emmanuel'}{:target='_blank'}: Everything You Need To Know by Ohan Emmanuel. Published by © 2017 [Independent.com](https://www.independent.com/){:title='Click to Visit the Home page of Independent dot com'}{:target='_blank'}.
