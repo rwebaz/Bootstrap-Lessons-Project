@@ -1,22 +1,18 @@
 ---
 title: Home Page
 layout: default
+excerpt: Bootstrap tags and Bootstrap statements mimic underlying Javascript methods ...
 navigation_weight: 1
 ---
 # Bootstrap Lessons Project Home Page
 
-{{ site.description }}
+{{ page.excerpt }}
 
-## Table O Contents
+{% comment %}Markdown Index Template md Dtd 02-04-18{% endcomment %}
 
-![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
+{% include toc.md %}
 
-- TOC
-{:toc}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** `( .svg )` image file is set to the dimensions of 120.00px x 120.00px.
-
-## Issue Dtd 12-31-17
+## Issue
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
