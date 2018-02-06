@@ -1,6 +1,6 @@
 # Site settings
 # 
-# Date of this Update to Config-template file ver 01-01-2018
+# Date of this Update to Config-template file ver 02-04-2018 pm
 #
 # Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
@@ -12,6 +12,7 @@ theme: "jekyll-theme-cayman"
 # repository: https://www.github.com/rwebaz/Bootstrap-Lessons-Project
 #
 title: "Bootstrap Lessons Project"
+lang: "en-US"
 tagline: "A GitHub repo of Lessons and Articles that emphasize the Twitter Bootstrap Template"
 description: "The Bootstrap-Lessons-Project, or BLP is a GitHub repo of Lessons and Articles emphasizing the Twitter Bootstrap Template."
 twitter:
@@ -35,6 +36,7 @@ kramdown:
     math_engine: "mathjax"
 timezone: "America/Phoenix"
 google_analytics: [UA-57898424-4]
+# Settings For Default Keys: Use a scope/values pair
 defaults:
   - scope:
       path: "assets/img"
@@ -52,27 +54,31 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
-      layout: "default"
-      author: "Robert Weber, Director"
+      category: "bootstrap"
 defaults:
   - scope:
       path: "pages"
       type: "pages"
     values:
-      layout: "default" 
-      author: "Robert Weber, Director"
+      category: "bootstrap"
+excerpt_separator: <!-- this is a literal excerpt separator -->
 collections:
-  collection_CFFP:
+  gists:
     output: "true"
 defaults:
   - scope:
-      path: ""
-      type: "collection_LLP"
+      path: "_gists"
+      type: "pages"
     values:
-      layout: "page"
+      category: "bootstrap"
 plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
