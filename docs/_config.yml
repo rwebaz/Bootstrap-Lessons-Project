@@ -1,6 +1,6 @@
 # Site settings
 # 
-# Date of this Update to Config-template file ver 02-04-2018 pm
+# Date of this Update to Config-template file ver 02-08-2018 pm
 #
 # Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
@@ -11,8 +11,8 @@ theme: "jekyll-theme-cayman"
 # There are approx sixty auxillary repositories as of 12-31-17
 # repository: https://www.github.com/rwebaz/Bootstrap-Lessons-Project
 #
-title: "Bootstrap Lessons Project"
 lang: "en-US"
+title: "Bootstrap Lessons Project"
 tagline: "A GitHub repo of Lessons and Articles that emphasize the Twitter Bootstrap Template"
 description: "The Bootstrap-Lessons-Project, or BLP is a GitHub repo of Lessons and Articles emphasizing the Twitter Bootstrap Template."
 twitter:
@@ -54,7 +54,7 @@ defaults:
       image: "true"
 defaults:
   - scope:
-      path: "assets/ico"
+      path: "assets/img/ico"
     values:
       image: "true"
 defaults:
