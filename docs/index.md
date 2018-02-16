@@ -2,13 +2,15 @@
 title: Home Page
 layout: default
 excerpt: Bootstrap tags and Bootstrap statements mimic underlying Javascript methods ...
+version: Index Template md Dtd 02-10-18
 navigation_weight: 1
+categories: bootstrap
 ---
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
+
 # Bootstrap Lessons Project Home Page
 
 {{ page.excerpt }}
-
-{% comment %}Markdown Index Template md Dtd 02-04-18{% endcomment %}
 
 {% include toc.md %}
 
@@ -59,3 +61,5 @@ Expound the solution ...
 ### External Sources
 
 - The [Project Source Links](https://mminail.github.io/Bootstrap/Source-Bootstrap-Links.htm){:title="Click to Visit the Source Links page of the Bootstrap Lessons Project at GitHub pages"}{:target="_blank"} page of the Bootstrap Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.

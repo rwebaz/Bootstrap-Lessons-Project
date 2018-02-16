@@ -1,9 +1,9 @@
 ---
-title: The Flammarion
+title: Gist Template
 layout: default
-excerpt: The Flammarion is an ancient portrait of a medieval man poking his head into the ether ...
-version: Flammarion Page Template md Dtd 02-06-18 pm
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+version: Gist Template md Dtd 02-11-18
+navigation_weight: 8
 categories: template
 ---
 # {{ page.title }}
@@ -12,9 +12,29 @@ categories: template
 
 {% include toc.md %}
 
-{% include flammarion-svg.md %}
+## First Subtitle
+
+Place the introducing line of text ie.) the 'tagline' here ...
+
+## Import Code
+
+More to come ...
+
+## Last Subtitle
+
+**Note**. The above synopsis was derived from an article written by Blank [[2](#BLANK){:.red}].
+
+### Raw Code Block
+
+```liquid
+{% raw %}
+Enjoy the successful output!
+{% endraw %}
+```
 
 {% include sources-and-uses.md %}
+
+1. {:#BLANK}[The Blank Live at The Blank Festival, 2000](https://youtu.be/Blank){:title='Click to Watch the YouTube video of the Blank Live at the The Blank Festival, 2000'}{:target='_blank'}.
 
 ### External Sources
 
