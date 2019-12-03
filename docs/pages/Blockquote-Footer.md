@@ -2,19 +2,19 @@
 title: Blockquote Footer
 layout: default
 excerpt: Place the introducing line of text ie.) the 'lead' here ...
-version: Page Template md Dtd 02-15-18
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Bootstrap-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: template
+categories: page
 ---
-# {{ page.title }}
-
-{{ page.excerpt }}
-
 {% include toc.md %}
 
 ## First Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ```html
 {% raw %}
@@ -46,28 +46,16 @@ Renders,
 {% endraw %}
 ```
 
-## Import Code
+## Last Subtitle
 
 More to come ...
 
-## Last Subtitle
+***
 
 **Note**. The above synopsis was derived from an article written by Ohan Emmanuel [[2](#OHAN){:.red}].
 
-### Raw Code Block
-
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
-
-{% include sources-and-uses.md %}
-
 1. {:#OHAN}The [Understanding Bootstrap 4](https://medium.freecodecamp.org/bootstrap-4-everything-you-need-to-know-c750991f6784){:title='Click to Visit the Landing page for Understanding Bootstrap 4: Everything You Need To Know by Ohan Emmanuel'}{:target='_blank'}: Everything You Need To Know by Ohan Emmanuel. Published by © 2017 [Medium.com](https://medium.freecodecamp.org/){:title='Click to Visit the Home page of Medum Free Code Camp'}{:target='_blank'}.
 
-### External Sources
+***
 
-- {:#SOURCELINKS}The [Project Source Links](https://mminail.github.io/Bootstrap/Source-Bootstrap-Links.htm){:title="Click to Visit the Source Links page of the Bootstrap Lessons Project at GitHub pages"}{:target="_blank"} page of the Bootstrap Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-**Note**. This page crafted with {{ page.version }}.
+{% include patreon-link.md %}
