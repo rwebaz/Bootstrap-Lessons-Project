@@ -1,5 +1,5 @@
 #
-# Gemfile ver 111819 Satellite Repo
+# Gemfile ver 122020 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -253,7 +253,7 @@ gem 'minima', '2.5.0'
 #
 # Override the GitHub Pages online Dependency Chart Dtd 012418;
 # ver 1.7.2 of the Nokogiri dependency has a Security issue
-gem 'nokogiri', '1.10.4'
+gem 'nokogiri', '1.10.8'
 # 
 gem 'rouge', '3.11.0'
 #
