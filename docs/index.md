@@ -4,10 +4,11 @@ layout: default
 excerpt: Bootstrap tags and Bootstrap statements mimic underlying Javascript methods ...
 description_one: Issue, Rule, Analysis, Conclusion = IRAC
 repo: Bootstrap-Lessons-Project
-ver_date: 11-20-19
+ver_date: 03-31-22
 navigation_weight: 1
 categories: page
 ---
+
 {% include toc.md %}
 
 {% include irac-issue-rule-analysis-conclusion.md %}
