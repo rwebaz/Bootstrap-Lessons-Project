@@ -134,6 +134,8 @@ excerpt_separator: <!-- this is a literal excerpt separator -->
 collections:
   gists:
     output: true
+collection_CFFP:
+    output: true
 defaults:
   - scope:
       path: ""

@@ -12,14 +12,11 @@ source "https://rubygems.org"
 # gem 'github-pages', versions['github-pages']
 # ruby versions["ruby"]
 #
-# ruby "2.6.3"
-# ruby "2.7.1"
-# ruby "2.7.2"
 # ruby "2.7.3"
 # ruby "3.0.1"
 # ruby "3.0.2"
 ruby "3.1.1"
-#
+# 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # gem "rails"
@@ -50,6 +47,8 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # From the global Terminal prompt, run the following command statement:
 #
+# Note. The current version of `Bundler` is: 2.3.10
+# 
 # gem install bundler
 #
 # Note. You only need to install the 'Gem Bundler' program once.
@@ -76,15 +75,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # 
 # Type the following command at a local Terminal prompt,
 #
-# or,
-# 
-# gem update bundler: 2.3.10
-#
-# or,
-#
 # gem install bundler:2.3.10
+# 
+# gem update bundler:2.3.10
 #
 # or,
+#
+# Type the following command at a global Terminal prompt, as follows:
 #
 # bundle update --bundler
 #
@@ -110,7 +107,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
 # You may now install the local 'Jekyll server' program via the following global Terminal command ...
 #
-# gem install 
+# gem install jekyll
 #
 # Hint: To see where your copy of the Jekyll program resides type:
 #
@@ -319,11 +316,9 @@ gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
-# gem 'nokogiri', '1.11.2'
-# gem 'nokogiri', '>= 1.11.4'
 # gem 'nokogiri', '1.11.7'
 gem 'nokogiri', '1.13.3'
-# 
+#
 # gem 'rouge', '3.23.0'
 gem 'rouge', '3.26.0'
 #
